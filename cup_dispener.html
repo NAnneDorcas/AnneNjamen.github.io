@@ -2,6 +2,8 @@
 <html lang="en">
 <header>
     <h1>Use of smart devices (smart switches) to facilitate the use of machine dispenser (cup dispenser)</h1>
+</header>
+<body>
     <p><h4>The problem:</h4> A cup dispenser is operated by a smart watch. The operation is not reliable, and the 
 		customer is complaining. The problem is not so much the dispenser side. That works fine more or less. It 
 		has to do with back-end communication. 
@@ -11,48 +13,308 @@
 		better access to the dispenser QR code. In short make the machine give a cup from your phone How 
 		does my part integrate with that of the concept of the project: help the team by doing a practical search 
 		of what the problem may be and provide a theoretical solution to what the problem may be and the 
-		corresponding solutions to the problem.</p>
-    <nav>
-	<a href="one.html">one</a>
-	<a href="two.html">two</a>
-	<a href="three.html">three</a>
-	<a href="Anne.html">Songs</a>
-    </nav>
-</header>
-<body>
+		corresponding solutions to the problem.
+	</p>
 	<section class="half">
 		<header class="major">
-			<h2>My favourite food</h2>
+			<h4>Product distributor and switch:</h4>
 		</header>
 		<ul style="list-style-type:disc">
-			<li>strawberry</li>
-			<li>pasta</li>
-			<li>cream cake</li>
+			<li><a href="https://ringo.eco/en/" >Distributor</a></li>
+			<li><a href="https://www.aliexpress.com/item/33020859525.html?spm=a2g0o.order_detail.order_detail_item.2.c468f19cMUA6OI" >Switch type</a></li>
+			
 		</ul>
 	</section>
 	<section class="half">
 		<header class="major">
-			<h2>Acheivements</h2>
+			<h4>Working mechanism:</h4>
 		</header>
-		<p>Progress in this course (100%)<progress value="1"></progress><br/>
-         Progress in the Specialization capstone (20%)<progress value="20" max="100"></progress><br/>
-         Progress in life goals (20%)<progress value="20" max="100"></progress></p>
+		<p>The business idea presented here revolves around replacing disposable plastic packaging with reusable 
+			dishes, while maintaining a seamless experience for both sellers and buyers of food in disposable 
+			packaging. The implementation involves individual QR code labels on each cup. When a customer 
+			purchases coffee, they scan the QR code using the company's app, which deducts a deposit from their 
+			wallet. Collection boxes are provided for cup returns, and upon returning the cup, the deposit is 
+			refunded. Additionally, there is a service fee for the coffee maker, but specific details about it are not 
+			provided. The dispenser itself also features a QR label that customers can scan to obtain a cup.</p>
+	</section>
+	<section class="type">
+		<header class="major">
+			<h4>Here are a few ways the switch could be used:</h4>
+		</header>
+		<ol>
+			<li>
+				<h5>Cup Dispenser Mechanism:</h5>
+				<p>The eWeLink Smart Rolling Door Switch or WiFi Relay could be used to 
+					control the opening and closing of the cup dispenser mechanism. By connecting the switch to the 
+					dispenser's motor, it could enable remote or automated control of the dispensing process.</p>
+			</li>
+			<li>
+				<h5>Remote Operation:</h5>
+				<p>Through the eWeLink mobile app or other compatible applications, users could 
+					remotely trigger the dispenser to dispense a cup. This could be achieved by sending a command to the 
+					switch, which would activate the dispenser motor and release a cup. </p>
+			</li>
+			<li>
+				<h5>Integration with QR Code System:</h5>
+				<p> The dispenser could be equipped with QR code labels similar to the 
+					reusable cups mentioned in the previous context. When a user wants a cup, they can scan the QR code 
+					on the dispenser using the app. The app would then send a command to the switch, initiating the cup 
+					dispensing process.</p>
+			</li>
+			<li>
+				<h5>Monitoring and Inventory Management: </h5>
+				<p>The WiFi Relay could also facilitate monitoring and inventory 
+					management of the cup dispenser. It could provide data on the number of cups dispensed, track usage 
+					patterns, and send notifications when the cup supply needs to be replenished.</p>
+			</li>
+			<li>
+				<h5>Backend solutions:</h5>
+				<p>Backend Infrastructure Upgrade: Propose upgrading the backend infrastructure, 
+					including servers, networking equipment, and databases, to ensure optimal performance and reliability. 
+					This may involve investing in more powerful hardware, increasing bandwidth capacity, or implementing 
+					load balancing techniques to handle higher communication loads. </p>
+			</li>
+			<li>
+				<h5>Data Transfer Protocol Optimization:</h5>
+				<p>Investigate the data transfer protocols used for communication 
+					between the cup dispenser and the backend server. Explore alternative protocols or optimization 
+					techniques, such as compression algorithms or data caching, to improve the efficiency and speed of 
+					communication.</p>
+			</li>
+			<li>
+				<h5>Error Handling and Retry Mechanisms:</h5>
+				<p>Suggest implementing robust error handling and retry 
+					mechanisms in the cup dispenser's software or firmware. This could involve incorporating mechanisms 
+					to detect and handle communication errors, retry failed requests, and provide appropriate error 
+					messages to users.</p>
+			</li>
+			<li>
+				<h5>Real-time Monitoring and Alerting:</h5>
+				<p> Propose implementing a system for real-time monitoring of the 
+					backend communication. This could involve setting up monitoring tools to track communication metrics, 
+					such as response times and error rates. Additionally, configure alerts or notifications to be triggered 
+					when communication issues arise, allowing for prompt investigation and resolution.</p>
+			</li>
+			<li>
+				<h5>Communication Redundancy:</h5>
+				<p>Recommend introducing redundancy measures to mitigate 
+					communication failures. This could involve implementing backup servers, redundant network 
+					connections, or failover mechanisms to ensure continuous communication even in the event of system 
+					failures or disruptions.</p>
+			</li>
+			<li>
+				<h5>Code Optimization and Performance Tuning:</h5>
+				<p>Suggest reviewing and optimizing the codebase of the 
+					cup dispenser's software or firmware. Identify areas of inefficiency or bottlenecks in the communication 
+					logic and propose improvements to enhance overall performance and responsiveness.</p>
+			</li>
+		</ol>
+	</section>
+	<section class="need">
+		<header class="major">
+			<h4>What I need in order to have better results:</h4>
+		</header>
+		<ul>
+			<li>
+				Study how the smart switch work first by connecting it to its environment of origin “ewelink”: App -
+				eWeLink -then connect it to Alexa 
+			</li>
+			<li>
+				After studying both environment figure out how you can make work the cup dispenser form phone and 
+				also built our own cloud environment Further questions: 
+				<ol>
+					<li>
+						What are the potential limitations or challenges associated with the backend communication of the 
+							cup dispenser system, and how can those problems be fixed or addressed? 
+					</li>
+					<li>
+						What are the possible modifications and adaptations that can be made to the cup dispenser system to 
+						improve its functionality? 
+					</li>
+					<li>
+						What solutions can be proposed to optimize the backend communication of the cup dispenser system 
+						for remote cup dispensing control and inventory management?
+					</li>
+				</ol>
+			</li>
+		</ul>
+			
 	</section>
 	<section class="whole">
 		<header class="major">
-			<h2>More about me</h2>
+			<h3>Connecting the smart switch to ewelink and Alexa</h3>
 		</header>
-		<details open>
-			<summary>My childhood</summary>
-			<p>From childhood to adulthood</p>
-		</details>
-		<footer>
-			<p>
-				<img src="http://www.intro-webdesign.com/images/newlogo.png" alt="new logo">
-		        This page was created by Anne Njamen & Colleen van Lent. To learn more about web design, visit
-		        <a href="http://www.intro-webdesign.com">Intro to Web Design</a>
-	        </p>
-        </footer>
+		<ol>
+			<li><h4>In-depth smart switch:</h4>
+				<ul>
+					<li>Physical layer/Data Link communication: Wireless - WiFi 602001...</li>
+					<li>Protocol/Network Layer: IoT protocol implemented in smart switch - e.g MQTT, CoAP if they're using 
+						IoT protocols in this case. In many cases, they use TCP/IP protocol(Internet protocol).
+						</li>
+					<li>To troubleshoot physical, datalink, and network layers, use tools such as PostMan to see if you can 
+						send and receive standard messages from the smart switch using its gateway IP address.
+						</li>
+					<li>Transport/Session layer : How does the IoT protocol handle user requests: UDP(not reliable), TCP(3-
+						way communication protocol). Next steps: - Follow guide on connecting eW-Link to smart switch.
+						</li>
+					<li>If you notice a problem/discrepancy from one step to another, then clearly write down the behaviour 
+						observed and trackdown which layer(s)/protocol causing the error/problem. </li>
+				</ul>
+			</li>
+			<li><h4> In-depth of eW-Link App: </h4>
+				<ul>
+					<li>Application layer: eW-Link app.</li>
+					<li>explore the backend of eW-Link if it is open-source - I'm pretty sure it is commercial, therefore closed source. </li>
+					<li>explore the connection settings provided. This largely depends on the network, and transport layer -
+						e.g. QoS(Quality of Service), retain message settings, ACK(acknowledgement) notifications, session 
+						timeout handling. Connecting the smart switch to ewe link (behaviors while connecting to ewe link) </li>
+					<li>First day did not work all that well connection/pairing is not work well and the app didn’t find the smart 
+						switch</li>
+					<li>day two: Had difficulty connecting to ewe link on my iPhone and proceeded to try on my laptop and the 
+						steps below where taken. Installing ewe link on my computer: 
+						https://www.youtube.com/watch?v=9O7rsqbJT-c Connecting to ewe link:(tracked with postman)
+						
+					</li>
+				</ul>
+			</li>
+		<ol>
+		
     </section>
+	<section class="sensor">
+		<h3>Alternative to using other sensors than light sensors as a way to know all the cups are dispensed</h3>
+		<p>Most vending machine sensors use passive infrared (PIR) sensors, which unlike optical sensors that use 
+			an LED transmitter and infrared receiver, emit nothing.
+		</p>
+		<p>Types of sensors I can use</p>
+		<ol>
+			<li><h5>Weight or Load Sensors(an option only if we want to put something to close the dispenser from the 
+				bottom):
+				</h5>
+				<p>Load cells are sensors that can measure the weight or load applied to them. Placing a load cell under the 
+					cup stack can help determine if cups are present. When the dispenser is empty, the load cell will register 
+					a minimal load, indicating that it's time to refill the cups.
+				</p>
+				<ul>
+					<li>Advantages load cells
+						<ul>
+							<li>Strain gauge load cells can be use for weighing purposes.
+							</li>
+							<li>Strain gauge load cells can also be use for material testing in process industry also.
+							</li>
+							<li> Strain gauge load cells are also used in tensile test machines as a major component.
+							</li>
+							<li>Strain gauge load cells can be used for both expansion and compression.</li>
+							<li>Strain gauge load cells are less costly so mostly used in the industry</li>
+							<li>Strain gauge load cells are used in automotive industry to check the structural performances of the 
+								material used in doors, hoods, trunksetc.
+							</li>
+						</ul>
+					</li>
+					<li>Disadvantages load cells
+						<ul>
+							<li>It requires continuous electric energy for the production and display of signals.</li>
+							<li>It also requires an amplification circuit for the generation of output display because the signals 
+								produced by the gauge itself are of very much low voltage almost in milli volts.</li>
+							<li>It cannot be used for the pressure measurement of highly reactive or corrosive materials because 
+								they can damage the gauge</li>
+							<li>It cannot be used for the measurement of very high pressure if the diaphragm use is of plastic.</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><h5>Counting Sensors
+				</h5>
+				<p>Implement a counting mechanism that counts the number of cups dispensed. For example, you can use 
+					an encoder or rotary encoder to keep track of each cup dispensed. When the count reaches zero or falls 
+					below a certain threshold, it indicates that the dispenser is empty.
+					An encoder is a motion sensor that generates digital signals in response to motion (1). Encoders can 
+					provide users with information on the position, velocity and/or direction of all types of machinery 
+					(2). Encoders are generally used to measure one or more specific parameters about the object, such as 
+					its velocity, position, direction, or to provide a count of the object or some related value.
+					Simply put, an encoder is a sensing device that provides feedback. Encoders convert motion to an 
+					electrical signal that can be read by some type of control device in a motion control system, such as a 
+					counter or PLC. The encoder sends a feedback signal that can be used to determine position, count, 
+					speed, or direction
+				</p>
+				<ul>
+					<li>Advantages 
+						<ul>
+							<li>Highly reliable and accurate.
+							</li>
+							<li>Higher resolution.
+							</li>
+							<li>Low-cost feedback.
+							</li>
+							<li>Integrated electronics.</li>
+							<li>Compact in size.</li>
+							<li>Fuses optical and digital technology.</li>
+							<li>It can be incorporated into existing applications.</li>
+						</ul>
+					</li>
+					<li>Disadvantages 
+						<ul>
+							<li>The subject of magnetic radio interference.</li>
+							<li>Susceptible to dirt, oil and dust contamination.</li>
+							<li>Direct light source interference.</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<h5>Proximity Sensors(same as phone using sensors to turn off when on the phone e.g Ultrasonic or 
+				infrared sensor)
+				</h5>
+				<p>
+					<ul>
+						<li>Ultrasonic Sensors: Ultrasonic sensors emit high-frequency sound waves and measure the time it 
+							takes for the sound waves to bounce back. They can be positioned at the bottom of the cup 
+							dispenser to detect the presence or absence of cups. When the dispenser is empty, the absence 
+							of cups will result in a longer travel time for the sound waves, triggering an empty status.
+						</li>
+						<li>Infrared Sensors: Infrared (IR) proximity sensors emit infrared light and detect reflections. By 
+							placing an IR sensor at the bottom of the dispenser, you can detect when there are no cups to 
+								reflect the infrared beam. When the beam is interrupted, it indicates that the dispenser is 
+							empty.
+						</li>
+					</ul>
+				</p>
+				<ul>
+					<li>Advantages of proximity sensor
+						<ul>
+							<li>It can detect both metallic and nonmetallic targets.</li>
+							<li>It has good stability</li>
+							<li>High speed provided.</li>
+							<li>High switching rate.</li>
+							<li>Work in harsh environmental conditions.</li>
+							<li>Low cost and power consumption.</li>
+							<li>capacitive sensor is good in terms of power usage.</li>
+							<li>They are useful and can help with many security problems.</li>
+						</ul>
+					</li>
+					<li>Disadvantages of proximity sensor
+						<ul>
+							<li>They are affected by temperature and humidity.
+							</li>
+							<li>Difficulties in designing.
+							</li>
+							<li> Strain gauge load cells are also used in tensile test machines as a major component.
+							</li>
+							<li>The operating range may be limited.</li>
+							<li>A capacitive proximity sensor is not as accurate compared to the inductive sensors.
+							</li>
+							<li>It detects only the metallic target.
+							</li>
+							<li>They can be easily set off and cause a problem.
+							</li>
+							<li>They are expensive than inductive and capacitive sensors.
+							</li>
+						</ul>
+					</li>
+					
+				</ul>
+			</li>
+		</ol>
+	</section>
+    
 </body>
 </html>
